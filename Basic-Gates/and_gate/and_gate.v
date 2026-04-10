@@ -1,6 +1,6 @@
-module and_gate (out, a, b);
+module and_gate (y, a, b);
   input a,b;
-  output out;
-  assign out = a & b; // AND operation
+  output y;
+  assign y = a & b; // AND operation
 
 end module 
