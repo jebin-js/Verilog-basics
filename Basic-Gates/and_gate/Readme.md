@@ -14,9 +14,9 @@ The output `y` is HIGH (1) only when both inputs `a` and `b` are HIGH (1).
 
 ##  Code
 ```verilog
-module and_gate(out, a, b);
+module and_gate(y, a, b);
   input a,b;
-  output out;
+  output y;
   assign out = a & b;
 endmodule
 ```
